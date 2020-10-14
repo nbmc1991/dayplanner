@@ -26,8 +26,9 @@ textarea{
 }
 
 .time-block{
-  text-align: center;
+  text-align: left;
   border-radius: 15px;
+
 }
 
 .row {
@@ -52,6 +53,11 @@ textarea{
   color: white;
 }
 
+#day-planner{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .future {
   background-color: #77dd77;
   color: white;
@@ -68,4 +74,8 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+#todo-text {
+  width: fit-content;
 }
