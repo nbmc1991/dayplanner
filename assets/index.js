@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function () {
 
 
@@ -96,3 +97,32 @@ $(document).ready(function () {
 
 
 
+=======
+//get times from moment
+let now = moment().format("MMMM Do YYYY");
+let nowDisplay=moment().format('MMMM Do YYYY')
+//assigning where timewill be dislayed
+let currentDate = $("#currentDay");
+currentDate.text(nowDisplay)
+console.log(currentDate)
+    // console.log(test)
+
+let storedTodos = JSON.parse(localStorage.getItem("storedTodos"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> c951b15ca39f26eb55239048abea5c0bba16fb89
