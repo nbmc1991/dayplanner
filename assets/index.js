@@ -12,6 +12,7 @@ $(document).ready(function () {
 
     function changeColor() {
         var currentHour = moment().hours();
+       
 
         $(".time-block").each(function () {
             var timeBlockh = parseInt($(this).attr("id"));
@@ -39,6 +40,13 @@ $(document).ready(function () {
     });
 
     $("#9 .description").val(localStorage.getItem("9"))
+    $("#9 .description").val(localStorage.getItem("9"))
+    $("#9 .description").val(localStorage.getItem("9"))
+    $("#9 .description").val(localStorage.getItem("9"))
+    $("#9 .description").val(localStorage.getItem("9"))
+    $("#9 .description").val(localStorage.getItem("9"))
+
+
 
     // let test = false;
 
